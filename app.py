@@ -12,7 +12,7 @@ from googletrans import Translator
 st.set_page_config(page_title="🎬 AI YouTube Video Summarizer", layout="wide")
 st.title(" AI YouTube Video Summarizer")
 
-# ------------------ HELPER: Extract Video ID ------------------
+# ------------------ HELPER: Extract Video ID -----------------
 def extract_video_id(url_or_id):
     if len(url_or_id) == 11 and re.match(r"^[a-zA-Z0-9_-]{11}$", url_or_id):
         return url_or_id
