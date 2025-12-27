@@ -79,7 +79,6 @@ def summarize_text(text):
     return summary.strip()
 
 # ------------------ STEP 4: Translate Summary ------------------
-# ------------------ STEP 4: Translate Summary ------------------
 def translate_summary(summary, target_language):
     translator = load_translator()
     if target_language.lower() == "english":
